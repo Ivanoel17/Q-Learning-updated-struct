@@ -8,3 +8,7 @@ This project implements Q-Learning for optimizing VANET parameters such as trans
    To train the Q-Learning model, use the following command:
    ```bash
    python main.py --mode train
+
+python main.py --mode plot
+
+python main.py --mode server
