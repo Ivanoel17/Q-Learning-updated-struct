@@ -26,12 +26,15 @@ vanet_rl_project/ ├── main.py # Entry point for selecting mode (train, plo
    pip install -r requirements.txt
 
 2. **Training**
+   ```bash
    python main.py --mode train
 
 3. **Plotting**
+   ```bash
    python main.py --mode plot
 
 4. **Inference Server**
+   ```bash
    python main.py --mode server
 
 
